@@ -21,7 +21,7 @@ export default {
 <template>
   <div class="swap">
     <h1 class="swap__title">
-      Tasks <span class="swap__text-color">({{ taskCount }})</span>
+      Tasks <span class="swap__text-color">{{ taskCount }}</span>
     </h1>
     <div class="swap__block">
       <button @click="clearCompleted" class="swap__btn-clear">
@@ -41,7 +41,7 @@ export default {
 
   &__title {
     padding-left: 15px;
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 300;
   }
 
@@ -56,13 +56,13 @@ export default {
   }
 
   &__btn-clear {
-    padding: 20px 10px 20px 20px;
+    padding: 13px 10px 13px 20px;
     border-radius: 20px;
     border: none;
     background-image: url(../assets/done.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-color: #006357;
+    background-color: #2196f3;
     cursor: pointer;
     font-size: 20px;
     color: white;
@@ -74,13 +74,13 @@ export default {
   }
 
   &__btn-clearall {
-    padding: 20px 10px 20px 20px;
+    padding: 13px 10px 13px 20px;
     border-radius: 20px;
     border: none;
     background-image: url(../assets/delete.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0.9);
     cursor: pointer;
     font-size: 20px;
     color: white;

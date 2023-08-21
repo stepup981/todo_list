@@ -16,7 +16,11 @@ export default createStore({
       return state.tasks.filter((task) => !task.completed);
     },
     taskCount(state) {
-      return state.tasks.length;
+      if (state.tasks.length === 0) {
+        return null;
+      } else {
+        return state.tasks.length;
+      }
     },
   },
   mutations: {

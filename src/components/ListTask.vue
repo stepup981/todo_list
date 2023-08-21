@@ -57,7 +57,7 @@ export default {
   position: relative;
   scroll-snap-type: y mandatory;
   overflow-y: auto;
-  max-height: 270px;
+  max-height: 340px;
 
   &::-webkit-scrollbar {
     width: 5px;
@@ -84,31 +84,33 @@ export default {
   }
 
   &__newtask {
-    background-color: rgba(217, 217, 217, 0.5);
-    border-radius: 30px;
-    font-size: 30px;
+    background-color: rgba(217, 217, 217, 0.089);
+    border-radius: 20px;
+    font-size: 24px;
     padding: 10px 180px 10px 15px;
     width: 55%;
     cursor: pointer;
+    transition: 0.3s;
 
     &:hover {
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      box-shadow: rgba(50, 50, 93, 0.1) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
     }
   }
 
   &__newtask.selected-task {
-    background-color: #006357;
+    background-color: #2196f3;
   }
 
   &__btn {
-    padding: 30px;
+    padding: 25px;
     border-radius: 50%;
     border: none;
     background-image: url(../assets/deletelist.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0.9);
+    background-size: 28px;
     cursor: pointer;
 
     &:hover {
