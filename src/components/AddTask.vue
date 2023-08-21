@@ -85,7 +85,7 @@ export default {
 
 @media (max-width: 480px) {
   .search {
-    margin: 10px 45px 10px 40px;
+    margin: 10px 25px 10px 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -102,7 +102,7 @@ export default {
       outline: none;
       border-radius: 20px;
       padding: 10px 50px 10px 15px;
-      font-size: 24px;
+      font-size: 14px;
       border: none;
       transition: 0.5s;
 
@@ -118,14 +118,14 @@ export default {
     }
 
     &__btn {
-      padding: 25px;
+      padding: 18px;
       border-radius: 50%;
       border: none;
       background-image: url(../assets/plus.png);
       background-repeat: no-repeat;
       background-position: center;
       background-color: #2196f3;
-      background-size: 35px;
+      background-size: 28px;
       cursor: pointer;
 
       &:hover {

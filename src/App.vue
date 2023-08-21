@@ -214,7 +214,7 @@ export default {
 
   .app {
     &__block {
-      max-width: 300px;
+      max-width: 350px;
       margin-top: 100px;
       margin-left: auto;
       margin-right: auto;
@@ -237,7 +237,7 @@ export default {
     top: 100;
     left: 0;
     right: 0;
-    font-size: 30px;
+    font-size: 24px;
 
     &__block {
       display: flex;
